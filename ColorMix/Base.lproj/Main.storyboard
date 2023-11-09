@@ -28,12 +28,29 @@
                                     <action selector="switchChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="psY-Qp-DIb"/>
                                 </connections>
                             </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="T8V-Eo-h3K">
+                                <rect key="frame" x="172" y="450" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="switchChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="QT6-Th-agW"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="yav-ZO-ufI">
+                                <rect key="frame" x="172" y="489" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="switchChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="RVJ-pa-EdB"/>
+                                </connections>
+                            </switch>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="blueSwitch" destination="yav-ZO-ufI" id="0Yq-os-AyN"/>
                         <outlet property="colorView" destination="zWc-k1-nYe" id="OFj-6O-SIm"/>
+                        <outlet property="greenSwitch" destination="T8V-Eo-h3K" id="Caj-fD-7yt"/>
+                        <outlet property="redSwitch" destination="NNI-au-pUN" id="BWB-IB-0O6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
